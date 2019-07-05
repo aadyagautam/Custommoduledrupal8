@@ -1,0 +1,7 @@
+gautam_form_contribute:
+  path: '/gautam_form'
+  defaults:
+    _form: '\Drupal\gautam_form\Form\ContributedForm'
+    _title: 'Contributed Form'
+  requirements:
+    _access: 'TRUE'

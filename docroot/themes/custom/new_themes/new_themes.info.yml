@@ -1,0 +1,16 @@
+name: new_themes
+description: "new themes for drupal 8"
+type: theme
+package: Core
+core: 8.x
+
+regions:
+  header: Header
+  content: Content
+  navigation: Navigation
+  left_sidebar: Left Sidebar
+  right_sidebar: Right Sidebar
+  main_content: Main Content
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom

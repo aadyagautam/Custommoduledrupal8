@@ -1,0 +1,5 @@
+name: simple form
+description: A simple create a custom form.
+core: 8.x
+package: Custom
+type: module

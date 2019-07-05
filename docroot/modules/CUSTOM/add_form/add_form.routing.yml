@@ -1,0 +1,23 @@
+add_form.addform_form:
+ path: '/add_form/form/add_form'
+ defaults:
+  _form: '\Drupal\add_form\Form\AddformForm'
+  _title: 'Add Form'
+ requirements:
+  _access: 'TRUE'
+
+add_form.display_table_controller_display:
+ path: '/add_form/hello/table'
+ defaults:
+  _controller: '\Drupal\add_form\Controller\DisplayTableController::display'
+  _title: 'Display'
+ requirements:
+  _permission: 'access content'
+
+add_form.delete_form:
+ path: '/add_form/form/delete/{cid}'
+ defaults:
+  _form: '\Drupal\add_form\Form\DeleteForm'
+  _title: 'Delete Form'
+ requirements:
+  _access: 'TRUE'

@@ -1,0 +1,15 @@
+learn.content:
+  path: '/learn'
+  defaults:
+    _controller: '\Drupal\learn\Controller\HelloController::content'
+    _title: 'Learn Drupal8!'
+  requirements:
+    _permission: 'access content'
+
+learn.hello:
+  path: '/learn/new/{count}'
+  defaults: 
+    _controller: '\Drupal\learn\Controller\OfferController::hello'
+    _title: 'cheking by argument'
+  requirements: 
+    _permission: 'access content'

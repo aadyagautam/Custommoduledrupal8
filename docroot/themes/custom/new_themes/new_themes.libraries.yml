@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+    layout:
+      css/layout.css: {}
+    theme:
+      css/colors.css: {}
+      css/print.css: { media: print }

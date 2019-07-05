@@ -1,0 +1,5 @@
+name: Gautam Form
+type: module
+description: "build a new form"
+package: custom
+core: 8.x
